@@ -33,7 +33,7 @@ header nav ul {
     margin: 0 1rem;
 }
 
-#about-me section{
+#about-me-title-section{
     display: flex;
     justify-content: center;
 }
@@ -57,7 +57,7 @@ article {
     align-items: center;
 }
 
-#projects section {
+#projects-content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
