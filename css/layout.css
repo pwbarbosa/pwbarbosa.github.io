@@ -17,8 +17,7 @@ header {
 header nav ul {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    padding: 1rem;
+    margin-right: .5rem;
 }
 #container {
     display: flex;
@@ -39,17 +38,26 @@ header nav ul {
 }
 
 #about-me-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
     text-align: center;
+    justify-content: center;
 }
 .about-me-grid-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1rem .5rem;
+    text-align: justify;
+    max-width: 1000px;
+    justify-content: center;
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
     text-justify: distribute;
+    text-align: center;
+    max-width: 690px;
 }
 article {
     display: flex;
@@ -58,8 +66,7 @@ article {
 }
 
 #projects-content {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: space-evenly;
     width: 100%;
     align-content: center;
@@ -87,31 +94,32 @@ footer {
     flex-direction: column-reverse;
     height: auto;
     min-height: 75px;
-    margin: 0 auto;
     align-items: center;
-}
-
-footer p {
-    grid-column-start: 2;
-    text-align: center;
 }
 
 footer nav {
     display: flex;
-    justify-content: right;
+}
+#links {
+    display: flex;
     margin-right: 3rem;
+    justify-content: flex-end;
 }
 #links ul {
     display: flex;
-    width: 175px;
+    width: 150px;
     justify-content: space-evenly;
     margin-top: 1rem;
+}
+.links {
+    display: flex;
+    margin-right: 3rem;
 }
 .links ul {
     display: flex;
     width: 175px;
-    justify-content: space-evenly;
     margin: 1rem auto;
+    justify-content: space-around;
 }
 
 #github {
@@ -129,5 +137,49 @@ footer nav {
 .linkedin {
     width: 3.5rem;
 }
+
+@media screen and (min-width: 650px) {
+    header nav ul {
+        flex-direction: row;
+        width: 250px;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    .about-me-grid-item {
+        margin: 1rem 1rem;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        min-height: 75px;
+        align-items: center;
+    }
+    footer p {
+        grid-column-start: 2;
+        text-align: center;
+    }
+    #links {
+        margin-right: 1rem;
+    }
+}
+@media screen and (min-width: 690px) {
+    #projects-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #about-me-content {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: top;
+    }
+    .about-me-grid-item {
+        margin: 1rem .5rem;
+        justify-content: flex-start;
+    }
+}
+
+
 
 
