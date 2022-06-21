@@ -169,7 +169,9 @@ footer nav {
     }
 }
 
-@media screen and (min-width: 1300px) {
+
+
+@media screen and (min-width: 1000px) {
     #about-me-content {
         grid-template-columns: repeat(3, 1fr);
         align-items: top;
