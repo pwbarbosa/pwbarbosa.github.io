@@ -7,7 +7,7 @@ body {
     margin-top: 70px;
 }
 #body-main {
-    margin-top: 101px;
+    margin-top: 110px;
 }
 header {
     display:flex;
@@ -48,6 +48,11 @@ header nav ul {
 #welcome figure img {
     width: 50%;
     align-items: right;
+}
+#welcome section {
+    margin-top: 2rem;
+}
+#welcome section p{
 }
 #pedro-collage {
     width:100%;
