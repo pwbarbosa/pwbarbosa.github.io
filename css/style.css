@@ -21,20 +21,27 @@ ul {
 header {
     background-color: var(--orange);
     color: lightgray;
-    padding-left: 1em;
     margin-top: 0px;
-    border: solid chocolate;
+    border-bottom: solid chocolate;
 }
 
 header nav ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     text-align: right;
 }
 
 header ul li a {
     color: white;
     font-size: 1.25rem;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: rgb(239, 199, 131);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+#page-title a{
+    color: white;
     text-decoration: none;
 }
 
@@ -49,15 +56,39 @@ header ul li a {
     font-family: 'Libre Baskerville', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#about-me {
-    /* border:solid  #8B8B8C; */
+#welcome figure img {
+    border-radius: 50%;
+    border: solid rgb(60, 102, 147);
+    border-width: 10px;
+    padding: 5px;
+}
+#welcome h2 {
+    text-align: center;
+    font-family: 'Libre Baskerville', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(17, 51, 87);
+}
+#mid-text-scroll-down {
+    text-decoration: none;
+    color: #2F2D92;
+}
+#mid-text-scroll-down:hover {
+    text-decoration: none;
+    color: #E36C14;
+}
+#mid-text-about-me {
+    text-decoration: none;
+    color: #2F2D92;
+}
+#mid-text-about-me:hover {
+    text-decoration: none;
+    color: #E36C14;
 }
 #about-me-title-section{
-    background-color: var(--dark-blue);
-    border: solid var(--blue);
+    background-color: rgb(60, 102, 147);
+    /* border: solid var(--blue); */
 }
 .about-me-title {
-    background-color: var(--dark-blue);
+    background-color: rgb(60, 102, 147);
     color: white;
     font-size: 2rem;
 }
@@ -84,8 +115,8 @@ article h3 {
 
 #projects-title {
     text-align: center;
-    background-color: var(--dark-blue);
-    border: solid var(--blue);
+    background-color: rgb(60, 102, 147);
+    /* border: solid var(--blue); */
     color: white;
     font-size: 2rem;
 
@@ -94,17 +125,23 @@ article h3 {
     background-color: var(--light-gray);
 }
 .projects-grid-item img {
+    border-radius: 35px;
+}
+.projects-grid-item {
     border-radius: 50px;
-    border: solid #E89611;
+    background-color: rgb(18, 32, 47);
+    /* border: solid rgb(18, 32, 47); */
     /* border-width: .4rem; */
     text-align: center;
 }
+.projects-grid-item p{
+    color: white;
+}
 
 figcaption {
-    background-color: lightgray;
     text-align: center;
     border-radius: 50px;
-    border: solid #E89611;
+    /* border: solid #E89611; */
 }
 figure a:link {
     text-decoration: none;
@@ -126,7 +163,7 @@ figcaption h2 {
 footer {
     background-color:#E89611;
     color:white;
-    border: solid;
+    border-top: solid;
     border-color: chocolate;
 }
 
