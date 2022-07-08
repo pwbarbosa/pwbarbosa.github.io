@@ -125,10 +125,10 @@ article h3 {
     background-color: var(--light-gray);
 }
 .projects-grid-item img {
-    border-radius: 35px;
+    border-radius: 10px;
 }
 .projects-grid-item {
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: rgb(18, 32, 47);
     /* border: solid rgb(18, 32, 47); */
     /* border-width: .4rem; */
