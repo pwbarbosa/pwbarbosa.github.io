@@ -138,7 +138,13 @@ article h3 {
     color: white;
 }
 
-.project-links-index, .project-links-aboutme {
+.project-links-index {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: solid 5px lightgray;
+}
+
+.project-links-aboutme {
     border-radius: 10px;
     background-color: whitesmoke;
     border: solid 5px lightgray;
