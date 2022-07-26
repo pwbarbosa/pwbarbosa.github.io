@@ -138,6 +138,12 @@ article h3 {
     color: white;
 }
 
+.project-links-index, .project-links-aboutme {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: solid 5px lightgray;
+}
+
 figcaption {
     text-align: center;
     border-radius: 50px;
