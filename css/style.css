@@ -141,15 +141,37 @@ article h3 {
 .project-links-index {
     display: none;
     border-radius: 10px;
-    background-color: whitesmoke;
-    border: solid 5px lightgray;
+    background-color: rgb(18, 32, 47);
+    /* border: solid 5px lightgray; */
+    color: white;
+    text-decoration: none;
+}
+.project-links-index a:visited {
+    color: white;
+}
+.project-links-index a:link {
+    color: white;
+}
+.project-links-index a:hover {
+    color: lightseagreen;
 }
 
 .project-links-aboutme {
     display: none;
     border-radius: 10px;
-    background-color: whitesmoke;
-    border: solid 5px lightgray;
+    background-color: rgb(18, 32, 47);
+    /* border: solid 5px lightgray; */
+    color: white;
+    text-decoration: none;
+}
+.project-links-aboutme a:visited {
+    color: white;
+}
+.project-links-aboutme a:link {
+    color: white;
+}
+.project-links-aboutme a:hover {
+    color: lightseagreen;
 }
 
 figcaption {
