@@ -15,14 +15,20 @@
 <body id="body-about-me">
     <header id="header-about-me">
         <h1 id="page-title"><a href="/index.html">Pedro Barbosa</a></h1>
+        <div class="burgerContainer" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <nav class="top-nav off-canvas">
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav class="top-nav off-canvas">
-        <ul class="menu">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#links">Links</a></li>
-        </ul>
-    </nav>
+    
     <div id="container">
         <section id="about-me">
             <section id="about-me-title-section">
@@ -135,5 +141,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
